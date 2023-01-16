@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+   
+    color: palevioletred;
+margin-left: 0px;
+padding: 25px;
+}
+.sidebar{
+    background-color: teal;
+    color: palevioletred;
+  width: 0px;
+ height: 100%;
+ text-decoration: none;
+
+ position: fixed;
+ top: 0;
+ left: 0;
+ overflow-x: hidden;
+ transition: 0.5s;
+}
+
+li{
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+  padding: 8px 8px 8px 40px;
+    justify-content: center;
+    padding-bottom: 30px;
+    transition: 1.5s;
+}
+li:hover{
+    color: aliceblue;
+}
+span{
+    font-size: 30px;
+    cursor: pointer;
+}
+.time{
+    font-size: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 25px;
+    
+}
+.time:hover{
+color: aliceblue;
+text-shadow: 5px;
+}
+.hamborgir:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px;
+}

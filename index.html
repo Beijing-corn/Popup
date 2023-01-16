@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body style="background-image: url(https://www.xmple.com/wallpaper/green-pink-gradient-linear-1920x1080-c2-ffb6c1-008080-a-0-f-14.svg); background-size: cover;">
+
+    <div id="side" class="sidebar">
+        <ul>
+            <span onclick="closesidebar()" class="time">&times;</span>
+            <li>About Us</li>
+            <li>Home</li>
+            <li>Items</li>
+        </ul>
+    </div>
+    <div  id="hamburger"class="main">
+        <span onclick="opensidebar()" class="hamborgir">&#9776;</span>
+    </div>
+
+<script>
+const side = document.getElementById("side")
+const menu = document.getElementById("hamburger")
+function opensidebar(){
+    side.style.width="300px"
+ menu.style.marginLeft="300px"
+}
+function closesidebar(){
+    side.style.width="0px"
+    menu.style.marginLeft="0px"
+}
+
+</script>
+</body>
+
+</html>
